@@ -1,0 +1,11 @@
+.class-01 {
+  background-color: yellow;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#my-id {
+  background-color: red;
+  font-size: 32px;
+  font-weight: bold;
+}

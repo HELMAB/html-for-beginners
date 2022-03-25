@@ -6,9 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+
+  <link rel="stylesheet" href="/css/app.css">
 </head>
 
 <body>
+
+  <!-- styles -->
+  <!-- 1. Inline style
+  2. Internal style
+  3. External style -->
 
   <div>
     <h1 style="color:red;">Heading 1</h1>
@@ -20,10 +27,381 @@
   </div>
 
   <div>
-    <p style="color: blue;">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit exercitationem, quasi possimus quae deserunt
-      architecto ab vitae minima dolorum inventore aliquid sunt asperiores molestiae recusandae qui culpa aut quis iure?
+    <p style="color: blue;font-size: 32px; background-color: aqua;">
+      <b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Suscipit exercitationem, quasi possimus quae
+      deserunt
+      architecto <strong>ab vitae minima dolorum</strong> inventore aliquid sunt asperiores molestiae recusandae qui
+      culpa aut quis iure?
     </p>
+
+    <p>
+      Lorem ipsum dolor, <i>sit amet consectetur</i> adipisicing elit. Ratione at, quidem similique eaque corrupti optio
+      nisi
+      <small>provident consectetur</small> esse error <mark>sit necessitatibus</mark> deserunt aut pariatur,
+      voluptatibus hic repellat
+      <del>nobis sint.</del>
+    </p>
+
+    <p>x<sup>100</sup></p>
+
+    <p>
+      H<sub>2</sub>O
+    </p>
+
+    <h3>HTML <i>Formatting Elements</i></h3>
+
+    <p>
+      Hello
+      <small>World</small>
+    </p>
+  </div>
+
+
+  <div id="quotations">
+    <h3>Quotations</h3>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate distinctio animi eligendi. Tempora,
+      architecto! Hic beatae, eos eveniet esse impedit, necessitatibus excepturi quod nesciunt accusantium, omnis
+      <q>ducimus molestiae corporis perspiciatis.</q>
+    </p>
+  </div>
+
+  <div>
+    <!-- <h3>Comment</h3> -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate distinctio animi eligendi. Tempora,
+      architecto! Hic beatae, eos eveniet esse impedit, necessitatibus excepturi quod nesciunt accusantium, omnis
+      ducimus molestiae corporis perspiciatis.
+    </p>
+  </div>
+
+  <div>
+    <h3>Color</h3>
+    <p style="color: red;">Text Color</p>
+
+    <p style="background-color: #ddd;">Background Color</p>
+
+    <p style="border: 3px solid tomato;">Border Color</p>
+  </div>
+
+  <div>
+    <h3>Links - Hyperlinks</h3>
+
+    <a href="/about.html">Go to About Page</a>
+
+    <a href="https://google.com" target="_blank">Go Google</a>
+  </div>
+
+  <div>
+    <h3>HTML Image</h3>
+
+    <img src="/img/01.jpeg" alt="Name or caption of image">
+  </div>
+
+  <div>
+    <h3>HTML Table</h3>
+
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Compnay</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Google</td>
+          <td>info@google.com</td>
+          <td>USA</td>
+        </tr>
+        <tr>
+          <td>Twiter</td>
+          <td>info@twitter.com</td>
+          <td>USA</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mt-5">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th rowspan="2">No.</th>
+          <th rowspan="2">Name</th>
+          <th colspan="3">Grade</th>
+        </tr>
+        <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Car 001</td>
+          <td>Yes</td>
+          <td rowspan="2">No</td>
+          <td rowspan="2">No</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Car 002</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <h3>Order List</h3>
+    <ol type="i">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>
+        PHP
+        <ul>
+          <li>Laravel</li>
+          <li>Symfony</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div>
+    <h3>Unorder List</h3>
+    <ul style="list-style-type: square;">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>PHP</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Definition List</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hyper Text Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheet</dd>
+      <dt>Javascript</dt>
+      <dd>JavaScript</dd>
+      <dt>PHP</dt>
+      <dd>PHP Hypertext Preprocessor</dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Block 1</h3>
+
+    <p>
+      Lorem ipsum dolor sit amet, <b>consectetur adipisicing elit</b>. Cupiditate distinctio animi eligendi. Tempora,
+      architecto! <i>Hic beatae</i>, eos eveniet esse impedit, necessitatibus excepturi quod nesciunt accusantium, omnis
+      ducimus molestiae corporis perspiciatis.
+    </p>
+  </div>
+
+  <div>
+    <h3>Block 2</h3>
+  </div>
+
+  <div>
+    <h3>HTML Classes</h3>
+
+    <p class="class-01 class-02">Hello HTML Classes</p>
+    <p class="class-01 class-02 class-03">With the same class</p>
+  </div>
+
+  <div>
+    <h3>HTML ID</h3>
+
+    <p id="my-id">My ID HTML Attribute</p>
+    <p id="my-id-1">My ID HTML Attribute 02</p>
+  </div>
+
+  <div>
+    <h3>HTML Iframe</h3>
+
+    <iframe src="/about.html" frameborder="0" width="100px;"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+
+  <div>
+    <h3>HTML Video</h3>
+
+    <iframe width="619" height="348" src="https://www.youtube.com/embed/vk3pR47ca3A" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div>
+    <h3>HTML Audio</h3>
+
+    <audio controls>
+      <source src="horse.ogg" type="audio/ogg">
+      <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div>
+    <h3>HTML Form</h3>
+
+    <form action="" method="POS" enctype="multipart/form-data">
+      <div>
+        <label for="username">Username</label>
+        <input type="email" id="username">
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+      </div>
+
+      <div>
+        <label for="type-of-user">Type of User</label>
+        <select>
+          <option value="normal-user">Normal User</option>
+          <option value="admin">Admin</option>
+          <option value="staff">Staff</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="favorite-color">Favorite Color</label>
+        <select id="favorite-color" multiple>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </div>
+
+      <div>
+        <label>
+          <input type="radio" name="language" value="php"> PHP
+        </label>
+        <label>
+          <input type="radio" name="language" value="java"> Java
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <input type="checkbox" name="language" value="php"> PHP
+        </label>
+        <label>
+          <input type="checkbox" name="language" value="java"> Java
+        </label>
+      </div>
+
+      <div>
+        <label for="file">File</label>
+        <input type="file" id="file">
+      </div>
+
+      <div>
+        <button>Login</button>
+      </div>
+    </form>
+  </div>
+
+  <div>
+    <h3>Form with Table Layout</h3>
+
+    <form action="">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <label for="username">Username</label>
+            </td>
+            <td>
+              <input type="email" id="username">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">Password</label>
+            </td>
+            <td>
+              <input type="password" id="password">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="type-of-user">Type of User</label>
+            </td>
+            <td>
+              <select>
+                <option value="normal-user">Normal User</option>
+                <option value="admin">Admin</option>
+                <option value="staff">Staff</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="favorite-color">Favorite Color</label>
+            </td>
+            <td>
+              <select id="favorite-color" multiple>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Which language do you want to learn?</td>
+            <td>
+              <label>
+                <input type="radio" name="language" value="php"> PHP
+              </label>
+              <label>
+                <input type="radio" name="language" value="java"> Java
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>Which technology do you want to learn?</td>
+            <td>
+              <label>
+                <input type="checkbox" name="language" value="php"> PHP
+              </label>
+              <label>
+                <input type="checkbox" name="language" value="java"> Java
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="file">Upload your avatar</label>
+            </td>
+            <td>
+              <input type="file" id="file">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button>Login</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
   </div>
 </body>
 
