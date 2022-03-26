@@ -9,9 +9,9 @@ HTML is the language that makes up the structure of a website.
 
 ## [YouTube Playlist](https://www.youtube.com/playlist?list=PLPLbwbrQ5dptAcdY8HwyM1ucw9W9fID8N)
 
-- [01 - Instruction to HTML](https://www.youtube.com/watch?v=QZ-_x-_Z-_8)
-- [02 - All HTML tags, you need to kown] ()
-- [03 - Deploy static website to Netlify] ()
+- [01 - Instruction to HTML](https://youtu.be/G4-HQb_YN1s)
+- [02 - All HTML tags, you need to kown](https://youtu.be/o03pzuFtNmo)
+- [03 - Deploy static website to Netlify](https://www.youtube.com/playlist?list=PLPLbwbrQ5dptAcdY8HwyM1ucw9W9fID8N)
 
 ## Support
 
